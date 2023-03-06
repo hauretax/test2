@@ -2,6 +2,8 @@
 // let test = new Circle({ y: 0, x: 0, size: 30 })
 // let test2 = new Circle({})
 
+let nbTouch = 0;
+
 let canvaObj = new Canvashandler()
 
 // testhandl.addCircle(test);
@@ -34,8 +36,9 @@ function clickObject(event) {
     //console.log(event)
     // canvaObj.clearOneObject(2)
     // canvaObj.print();
-    canvaObj.deletClickedObject({ x: event.offsetX, y: event.offsetY })
+    nbTouch += canvaObj.deletClickedObject({ x: event.offsetX, y: event.offsetY })
     canvaObj.print();
+    console.log(nbTouch)
 }
 
 canvas.addEventListener('click', clickObject, false);

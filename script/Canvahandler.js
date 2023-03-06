@@ -28,6 +28,7 @@ class Canvashandler {
     }
 
     deletClickedObject({ x, y }) {
+        const tmp = this.drawL.length
         this.drawL = this.drawL.filter((el) => {
             //console.log(el.posx, el.posy)
             if (el.isOn({ x, y })) {
@@ -36,6 +37,7 @@ class Canvashandler {
             }
             return true
         })
+        return tmp - this.drawL.length
         // console.log(this.drawL)
     }
 
