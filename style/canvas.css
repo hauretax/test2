@@ -53,3 +53,10 @@
 .rs-label {
     width: 24px;
 }
+
+
+#result {
+    display: flex;
+    justify-content: space-around;
+    font-size: 100px;
+}

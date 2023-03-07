@@ -2,7 +2,7 @@
 
 let nbTouch = 0;
 let click = 0;
-let nbCible = 2;
+let nbCible = 50;
 let startTime;
 let canvaObj = new Canvashandler()
 
@@ -30,6 +30,7 @@ function clickObject(event) {
     if (canvaObj.drawL.length == 0) {
         const totalTime = Date.now() - startTime
         console.log('u used:', totalTime / 1000)
+        document.getElementById('result').textContent = totalTime / 1000
     }
 }
 canvas.addEventListener('click', clickObject, false);

@@ -23,6 +23,8 @@
         </div>
         <input type="button" value='reset' class='greenButton' />
     </div>
+    <div id='result'>
+    </div>
 
 
     <script src='script/Canvahandler.js'></script>
