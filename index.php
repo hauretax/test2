@@ -21,7 +21,7 @@
             <span id="rs-bullet" class="rs-label">0</span>
             <input id="rs-range-line" class="rs-range" type="range" value="0" min="0" max="200">
         </div>
-        <input type="button" value='reset' class='greenButton' />
+        <input type="button" value='reset' class='greenButton' id="resetButton" />
     </div>
     <div id='result'>
     </div>
