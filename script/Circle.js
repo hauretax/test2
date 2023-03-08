@@ -30,7 +30,7 @@ class Circle extends Canvashandler {
     }
 
     setRandomPosition() {
-        this.posx = Math.random() * this.canvas.width
-        this.posy = Math.random() * this.canvas.height
+        this.posx = Math.random() * (this.canvas.width - this.size * 2) + this.size
+        this.posy = Math.random() * (this.canvas.height - this.size * 2) + this.size
     }
 }
