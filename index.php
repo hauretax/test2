@@ -30,4 +30,4 @@
     <script src='script/Canvahandler.js'></script>
     <script src='script/Circle.js'></script>
     <script src='script/slider.js'></script>
-    <script src='script/do.js'></script>
+    <script src='script/clickGame.js'></script>

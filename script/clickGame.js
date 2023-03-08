@@ -2,7 +2,7 @@
 
 let nbTouch = 0;
 let click = 0;
-let nbCible = 2;
+let nbCible = 50;
 let startTime;
 let canvaObj = new Canvashandler()
 
